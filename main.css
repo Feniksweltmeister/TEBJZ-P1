@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-family: 'Trbuchet MS', sans-serif;
+    margin: 0;
+}
+.gora{
+    display: flex;
+    height: 80px;
+    background-color: #283618;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.gora h1{
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    background-color: #fefae0;
+    box-sizing: border-box;
+}
+.list ol{
+    list-style-type: upper-roman;
+}
+.form{
+    display: flex;
+    width: 20%;
+    padding: 25px;
+    background-color: #606c38;
+    color: white;
+    box-sizing: border-box;
+}
